@@ -1,0 +1,76 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1
+{
+    color: white;
+    background-color: black;
+    line-height: 5rem;
+    height: 5rem;
+}
+
+.choices
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    align-items: center;
+}
+
+.choice
+{
+    height: 165px;
+    width: 165px;
+    border-radius: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover
+{
+    cursor: pointer;
+    background-color: black;
+    opacity: 0.8;
+}
+
+img
+{
+    height: 150px;
+    width: 150px;
+    object-fit: cover; /* it fits the object in the div*/
+    border-radius: 50%;
+}
+
+.scoreboard
+{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+
+#userscore,#computerscore
+{
+    font-size: 3rem;
+}
+
+.msg-container
+{
+    margin-top: 6rem;
+}
+#msg
+{
+    background-color: rgb(255, 138, 127);
+    display: inline; /*it gives the display color to the inline*/
+    padding: 20px;
+    border-radius: 5rem;
+}
+
+
